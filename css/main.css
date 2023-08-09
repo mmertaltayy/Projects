@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+/* Navbar Section */
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    list-style-type:none ;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+
+
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 10px;
+    
+}
+/* Home Section  */
+#home {
+
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+#home img:hover{
+
+    transform: scale(1.2);
+  }
+  
+
+
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+#home .name p {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+#home .name a {
+    margin-bottom: 100%;
+}
+
+/* about */
+#about {
+    
+    color: #fff;
+    padding: 1rem;
+}
+
+#about .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+#about .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 2rem;
+}
+
+#about .items .item:hover {
+    color: aqua;
+}
+/* Projects */
+
+#projects {
+    background-color: #062e51;
+    color: #fff;
+    padding: 1rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.projects .project {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects .project .project-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+.projects .project .project-image img {
+    border-radius: 10px;
+}
+.projects .project .project-image span {
+    background: red;
+    padding: 0.25rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;  
+    left: 0;
+}
+.projects .project .project-info .title {
+    
+    letter-spacing: 0.75px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.projects .project .project-info .title a {
+    text-decoration: underline !important ;
+}
+.projects .project .project-info .description {
+    letter-spacing: 0.75px;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+.projects .project .project-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+/* Contact */
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    margin-top: 1.5rem;
+    display: flex;
+    align-self: center;
+}
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+#contact .contact-form ul li a:hover {
+    opacity: 0.7;
+}
+#contact .contact-form .btn-block.btn-block:hover {
+   background-color:  grey;
+   color: #fff;
+
+}

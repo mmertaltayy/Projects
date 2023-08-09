@@ -1,0 +1,19 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+    overflow: hidden;
+    height: 100px;
+}
+
+#about .items {
+    flex-direction: column;
+   
+}
+#about .items .item {
+    width: 100%;
+    padding: 0.5rem;
+}
+.projects .project {
+    flex-direction: column;
+}
